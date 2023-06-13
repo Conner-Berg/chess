@@ -2,3 +2,28 @@ body {
 	background-color: #1f1f1f;
 	color: #eee;
 }
+
+.board {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 97vh;
+}
+
+.light-square {
+	width: 70px;
+	height: 70px;
+	background-color: #eeeed2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dark-square {
+	width: 70px;
+	height: 70px;
+	background-color: #769656;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
